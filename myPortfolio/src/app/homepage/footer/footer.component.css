@@ -1,31 +1,22 @@
-.jumbotron {
-
-    background-size: 100%
-}
-
-h1 {
+h6 {
     margin: 0 auto;
     color: white;
-    font-size: 4em;
+    font-size: 1.5em;
     transition: 0.5s;
   }
 
-  h2 {
+  #social > i {
     margin: 0 auto;
-    color: white;
-    font-size: 3em;
+    color: grey;
     transition: 0.5s;
   }
 
-  p {
-    margin: 0 auto;
-    color: white;
-    font-size: 1em;
-    transition: 0.5s;
-    margin-bottom: 1%;
+  p{
+    color: grey;
   }
 
-  h1:hover, h2:hover, p:hover {
+
+  h6:hover, i:hover{
     text-shadow: 0 0px 0 #4b4b4b56, 0 0.5px 0 #4b4b4b56,
       0 1px 0 #4b4b4b56, 0 1.5px 0 #4b4b4b56,
       0 2px 0 #4b4b4b56, 0 3px 0 #4b4b4b56,
@@ -34,3 +25,4 @@ h1 {
       0 8px 0 #4b4b4b56, 0 9px 0 #4b4b4b56,
       0 20px 30px rgba(0, 0, 0, 0.5);
   }
+

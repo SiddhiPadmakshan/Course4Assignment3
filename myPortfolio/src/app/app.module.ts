@@ -8,6 +8,8 @@ import { SignupComponent } from './homepage/signup/signup.component';
 import { AboutUsComponent } from './homepage/about-us/about-us.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ContactusComponent } from './homepage/contactus/contactus/contactus.component';
+import { FooterComponent } from './homepage/footer/footer.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -16,10 +18,12 @@ import { ContactusComponent } from './homepage/contactus/contactus/contactus.com
     SignupComponent,
     AboutUsComponent,
     HomepageComponent,
-    ContactusComponent
+    ContactusComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     AppRoutingModule
   ],
   providers: [],
